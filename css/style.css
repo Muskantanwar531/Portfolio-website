@@ -14,11 +14,12 @@ outline: none;
 scroll-behavior: smooth;
 }
 :root{
-    --bg-color:rgb(31, 36, 45);
-    --second-bg-color:#323946;
+     --bg-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    --second-bg-color:#060655;
+    /* #323946; */
     --text-color:#fff;
     --main-color:rgba(86, 228, 238, 0.932);
-
+    /* rgb(31, 36, 45) */
 }
 html{
     font-size: 62.5%;
@@ -39,7 +40,7 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     padding: 2rem 5%;
     background: rgba(12, 28, 59, 0.319);
     opacity:var(--second-bg-color);
