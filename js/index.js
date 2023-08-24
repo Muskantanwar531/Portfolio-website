@@ -71,3 +71,13 @@ emailjs.send(serviceID,templateid,persons)
   })
   .catch(err=>console.log(err));
 }
+function toggleReadMore() {
+  var content = document.querySelector('.contents');
+  content.classList.toggle('show');
+  var readBtn = document.querySelector('.btn');
+  if (content.classList.contains('show')) {
+    readBtn.textContent = 'Read Less';
+  } else {
+    readBtn.textContent = 'Read More';
+  }
+}
