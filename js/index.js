@@ -71,7 +71,7 @@ emailjs.send(serviceID,templateid,persons)
   })
   .catch(err=>console.log(err));
 }
-function toggleReadMore() {
+function toggleReadMore(){
   var content = document.querySelector('.contents');
   content.classList.toggle('show');
   var readBtn = document.querySelector('.btn');
