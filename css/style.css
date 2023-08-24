@@ -185,6 +185,14 @@ span{
 .btn:hover{
    box-shadow: none;
 }
+.contents {
+    overflow: hidden;
+    max-height: 130px;
+    transition: max-height 0.3s ease-out;
+  }
+  .show {
+    max-height: 1000px; /* Adjust as needed */
+  }
 .about{
     display: flex;
     justify-content: center;
