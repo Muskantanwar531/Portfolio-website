@@ -183,7 +183,7 @@ span{
 }
 .contents {
     overflow: hidden;
-    max-height: 140px;
+    max-height: 370px;
     transition: max-height 0.3s ease-out;
   }
   .show {
@@ -499,19 +499,16 @@ font-size: 1.6rem;
     @media (max-width:617px) {
         .header{
             display: flex;
-        
-        }
-       
-        
-        .header i{
+         }
+       .header i{
             visibility: visible;
                 }
-            
-             .home-img img{
+            .home-img img{
                display: none;
              }
              .about-img img{
                 display: none;
+                
              }
         .portfolio-container{
             grid-template-columns: 1fr;
